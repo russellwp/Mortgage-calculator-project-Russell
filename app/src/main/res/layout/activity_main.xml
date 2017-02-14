@@ -18,7 +18,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Home Value: " />
+            android:text="Home Value: "
+            android:id="@+id/houseValue"/>
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -34,7 +35,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Loan Value: " />
+            android:text="Loan Value: "
+            android:id="@+id/loan"/>
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -50,7 +52,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Interest Rate: " />
+            android:text="Interest Rate: "
+            android:id="@+id/interest"/>
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -66,7 +69,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Loan term: " />
+            android:text="Loan term: "
+            android:id="@+id/lTerm"/>
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -92,7 +96,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Start date: "/>
+            android:text="Start date: "
+            android:id="@+id/startDate"/>
         <Spinner
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -118,7 +123,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Property tax: " />
+            android:text="Property tax: "
+            android:id="@+id/pTax"/>
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -133,7 +139,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Home insurance per year: " />
+                android:text="Home insurance per year: "
+                android:id="@+id/yearlyInsurance"/>
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -156,6 +163,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/finalRate"
             android:text="Summary: " />
         <EditText
             android:layout_width="wrap_content"
