@@ -7,7 +7,6 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="edu.cofc.mortgagecalculator.MainActivity"
     android:orientation="vertical">
 
     <LinearLayout
@@ -151,9 +150,15 @@
     <Button
         android:layout_width="156dp"
         android:layout_height="62dp"
-        android:text="Calculate"
-        android:id="@+id/calcButton"
+        android:text="Mortgage Summary"
+        android:id="@+id/morSum"
     />
+
+    <Button
+        android:layout_width="156dp"
+        android:layout_height="62dp"
+        android:text="Payment Summary"
+        android:id="@+id/paySum"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
